@@ -1,0 +1,96 @@
+html, body {
+  margin: 0 3em;
+  background-color: #BCB8D8;
+  color: #423A7F;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+header {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 10em;
+}
+
+nav > h1 {
+  cursor: pointer;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: #423A7F;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 2em;
+  border: none;
+  padding: 0 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.main-text {
+  font-size: 5em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.hero-1 {
+  display: flex;
+  align-items: center;
+}
+
+.featured-img {
+  width: 50em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+
+}
+
+.center > * {
+  font-size: 3em;
+}
+
+.hero-2 {
+  padding: 5em 0;
+  text-align: center;
+}
+
+.hero-2 > h1 {
+  font-size: 3.4em;
+}
+
+.text-increase {
+  font-size: 1.1em;
+}
+
+.hero-gap {
+  margin-top: 2em;
+}
+
+footer {
+  padding: 5em;
+  text-align: center;
+}
