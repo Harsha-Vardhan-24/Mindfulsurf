@@ -100,7 +100,9 @@ export default function Homepage() {
         <img className="featured-img" src={contactus} />
       </section>
       <footer>
-        <h1>© 2023 Mindfulsurf. All Rights Reserved.</h1>
+        <h1 className="text-center">
+          © 2023 Mindfulsurf. All Rights Reserved.
+        </h1>
       </footer>
     </main>
   );
