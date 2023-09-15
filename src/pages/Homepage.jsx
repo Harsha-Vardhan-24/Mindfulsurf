@@ -5,6 +5,7 @@ import what from "../assests/what.png";
 import aboutus from "../assests/aboutus.png";
 import contactus from "../assests/contactus.png";
 import { BsArrowDownSquareFill } from "react-icons/bs";
+import "../index.css";
 
 export default function Homepage() {
   return (
@@ -52,7 +53,7 @@ export default function Homepage() {
           </ul>
         </div>
       </section>
-      <section className="hero-1">
+      <section className="hero-1 reverse">
         <div className="text-increase">
           <h1 className="main-text">Features</h1>
           <h2>
@@ -81,15 +82,19 @@ export default function Homepage() {
           </h2>
         </div>
       </section>
-      <section className="hero-1">
+      <section className="hero-1 reverse">
         <div className="text-increase">
           <h1 className="main-text">Contact</h1>
           <h2>
             wanna get in touch and get up to date updates from mindfulsurf
           </h2>
-          <div>
-            <input />
-            <button>Sumbit</button>
+          <div className="get-data">
+            <input
+              className="get-email-input"
+              placeholder="Email here"
+              type="email"
+            />
+            <button className="submit-btn">Submit</button>
           </div>
         </div>
         <img className="featured-img" src={contactus} />
